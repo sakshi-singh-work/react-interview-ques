@@ -1,0 +1,15 @@
+.outerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .btn{
+    z-index: 1;
+  }
+  .modal {
+    height: 400px;
+    width: 400px;
+    background-color: grey;
+    overflow-y: scroll;
+    z-index: 100;
+  }
+}

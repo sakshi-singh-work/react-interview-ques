@@ -1,0 +1,60 @@
+.toListOuterWrapper {
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: rgb(155, 119, 192);
+
+  .todoListContainer {
+    display: flex;
+    height: 100%;
+    width: 575px;
+    align-items: start;
+    justify-content: space-between;
+    
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      .editTask {
+      width: 350px;
+      height: 50px;
+    }
+      .btnWrapper {
+        display: flex;
+        align-items: unset;
+        gap: 5px;
+        .editbtn {
+          height: 50px;
+          width: 100px;
+          background-color: rgb(29, 56, 229);
+          border-radius: 4px;
+        }
+        .deletebtn {
+          height: 50px;
+          width: 100px;
+          background-color: rgb(218, 38, 17);
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+  .addConatiner {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    width: 100%;
+    .btnAdd {
+      height: 50px;
+      width: 100px;
+      background-color: green;
+      border-radius: 4px;
+    }
+    .addTask {
+      width: 350px;
+      height: 50px;
+    }
+  }
+}

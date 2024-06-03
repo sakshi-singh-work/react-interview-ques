@@ -1,0 +1,18 @@
+.accordian {
+  max-width: 600px;
+  margin: 2rem auto;
+  .accordian-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #21aeca;
+    gap: 10px;
+    font-size: 30px;
+    padding: 1rem;
+  }
+  .accordion-content {
+    background-color: #39b9d2;
+    padding: 1rem;
+  }
+}
